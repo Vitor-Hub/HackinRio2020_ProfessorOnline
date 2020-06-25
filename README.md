@@ -34,7 +34,7 @@ domina, com intuito de ajudar algum aluno que deseja aprender aquele determinado
   - Github: **leandrodeveng**
 
 - Vitor 
-  - Github: **Vit-Hub**
+  - Github: **Vitor-Hub**
 
 - Igor Marins 
   - Github: **igor-py**
