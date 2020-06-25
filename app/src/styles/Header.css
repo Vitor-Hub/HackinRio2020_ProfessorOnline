@@ -1,0 +1,124 @@
+#headerContainer img {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+#headerContainer img:hover {
+  opacity: 0.6;
+  transform: scale(1.03);
+}
+
+#headerContainer .links-header:hover {
+  color: #eb423f;
+}
+
+#headerContainer .links-header {
+  color: white;
+  padding-right: 80px;
+  font-size: 0.9vw;
+  float: right;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#headerContainer label:hover,
+.links-header:hover {
+  color: #c78c19;
+}
+
+#headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #262626;
+  height: 5vh;
+  min-height: 50px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+#fundo-logos img:hover {
+  transform: scale(1);
+}
+
+.labelContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 12px;
+  border-width: 1px;
+  border: solid #dcdcdc;
+  margin: 9.2% 0% 0% 70%;
+  width: 20%;
+  height: 15vw;
+  background-color: #262626;
+}
+
+.dropdown-content h2,
+h3 {
+  color: white;
+  padding: 5%;
+  font: 0.8vw Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dropdown-content input {
+  margin-left: 14%;
+  border-radius: 7px;
+  width: 65%;
+  font: 0.8vw Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.dropdown-content button {
+  cursor: pointer;
+  margin-left: 42%;
+  margin-top: 10%;
+  background-color: #262626;
+  transition: all 0.5s;
+  font: 0.8vw Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 8px;
+  color: white;
+  padding: 1%;
+
+}
+
+.dropdown-content button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.8s;
+  font: 0.8vw Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dropdown-content button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.dropdown-content button:hover span {
+  padding-right: 25px;
+}
+
+.dropdown-content button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.show {
+  display: block;
+}
